@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Restaurant Menu</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #222;
+
+    }
+
+ img {
+        width: 100%;
+        max-width: 100%;
+        height: 200px;
+}
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: auto;
+      padding: 40px 0;
+    }
+
+    .category-title {
+      font-size: 32px;
+      margin-bottom: 20px;
+      border-bottom: 3px solid black;
+      display: inline-block;
+      padding-bottom: 5px;
+      background: rgba(255,255,255,0.7);
+      padding: 10px 20px;
+      border-radius: 10px;
+    }
+
+    .menu-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      margin-bottom: 50px;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.95);
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 20px;
+    }
+
+    .card-content h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .price {
+      color: green;
+      font-size: 22px;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    .btn {
+      width: 100%;
+      background: black;
+      color: white;
+      border: none;
+      padding: 12px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .btn:hover {
+      background: #333;
+    }
+    .menu-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 30px 0;
+  flex-wrap: wrap;
+}
+
+.menu-links a {
+  text-decoration: none;
+  background: rgba(255,255,255,0.9);
+  color: #111;
+  padding: 15px 30px;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.3s;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.menu-links a:hover {
+  background: black;
+  color: white;
+  transform: scale(1.05);
+}
+  </style>
+</head>
+<body>
+
+  
+  <div class="container">
+
+    <h2 class="category-title">supplement</h2>
+
+    <div class="menu-grid">
+
+      <div class="card">
+        <img src="img2.png" alt="Pizza">
+        <div class="card-content">
+          <h3>nommm</h3>
+          <div class="price">prix</div>
+          
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img2.png" alt="Pizza">
+        <div class="card-content">
+          <h3>nomm</h3>
+          <div class="price">prix</div>
+        </div>
+      </div>
+    </div>
+    <div class="menu-grid">
+
+      <div class="card">
+        <img src="img2.png" alt="Pizza">
+        <div class="card-content">
+          <h3>nomm</h3>
+          <div class="price">prix</div>
+        </div>
+      </div>
+    </div>
+
+      <div class="card">
+        <img src="img2.png" alt="Pizza">
+        <div class="card-content">
+          <h3>nomm</h3>
+          <div class="price">prix</div>
+        </div>
+      </div>
+
+
+    
+
+    <div class="menu-grid">
+
+      <div class="card">
+        <img src="img2.png" alt="Pizza">
+        <div class="card-content">
+          <h3>nomm</h3>
+          <div class="price">prix</div>
+        </div>
+      </div>
+    </div>
+
+      <div class="card">
+        <img src="img2.png" alt="Pizza">
+        <div class="card-content">
+          <h3>nomm</h3>
+          <div class="price">prix</div>
+        </div>
+      </div>
+
+  </div>
+
+</body>
+</html>
